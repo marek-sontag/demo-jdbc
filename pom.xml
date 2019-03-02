@@ -22,12 +22,6 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jdbc</artifactId>
-		</dependency>
-
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 			<version>2.1.3.RELEASE</version>
 		</dependency>
@@ -37,12 +31,10 @@
 			<artifactId>spring-data-jdbc</artifactId>
 			<version>1.0.5.RELEASE</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
 		<dependency>
-			<groupId>org.hsqldb</groupId>
-			<artifactId>hsqldb</artifactId>
-			<version>2.4.1</version>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.198</version>
 			<scope>test</scope>
 		</dependency>
 
